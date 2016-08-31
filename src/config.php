@@ -7,7 +7,7 @@ return array(
     | Unique ID for hashing notices for multiple instances of TGMPA.
     |--------------------------------------------------------------------------
     */
-    'id'           => 'ninja-forms',
+    'id' => 'ninja-forms',
 
     /*
     |--------------------------------------------------------------------------
@@ -21,42 +21,42 @@ return array(
     | Menu slug.
     |--------------------------------------------------------------------------
     */
-    'menu'         => 'tgmpa-install-plugins',
+    'menu' => 'tgmpa-install-plugins',
 
     /*
     |--------------------------------------------------------------------------
     | Parent menu slug.
     |--------------------------------------------------------------------------
     */
-    'parent_slug'  => 'plugins.php',
+    'parent_slug' => 'plugins.php',
 
     /*
     |--------------------------------------------------------------------------
     | Capability needed to view plugin install page, should be a capability associated with the parent menu used.
     |--------------------------------------------------------------------------
     */
-    'capability'   => 'manage_options',
+    'capability' => 'manage_options',
 
     /*
     |--------------------------------------------------------------------------
     | Show admin notices or not.
     |--------------------------------------------------------------------------
     */
-    'has_notices'  => true,
+    'has_notices' => true,
 
     /*
     |--------------------------------------------------------------------------
     | If false, a user cannot dismiss the nag message.
     |--------------------------------------------------------------------------
     */
-    'dismissable'  => false,
+    'dismissable' => false,
 
     /*
     |--------------------------------------------------------------------------
     | If 'dismissable' is false, this message will be output at top of nag.
     |--------------------------------------------------------------------------
     */
-    'dismiss_msg'  => __( 'Ninja Forms Pro Builder requires Ninja Forms', 'ninja-forms' ),
+    'dismiss_msg' => __( 'Ninja Forms Pro Builder requires Ninja Forms', 'ninja-forms' ),
 
     /*
     |--------------------------------------------------------------------------
@@ -70,15 +70,15 @@ return array(
     | Message to output right before the plugins table.
     |--------------------------------------------------------------------------
     */
-    'message'      => '',
+    'message' => '',
 
     /*
     |--------------------------------------------------------------------------
     | Customized strings.
     |--------------------------------------------------------------------------
     */
-    'strings'      => array(
-        'notice_can_install_required'     => _n_noop(
+    'strings' => array(
+        'notice_can_install_required' => _n_noop(
         /* translators: 1: plugin name(s). */
             'This plugin requires the following plugin: %1$s.',
             'This plugin requires the following plugins: %1$s.',
