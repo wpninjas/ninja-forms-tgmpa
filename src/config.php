@@ -56,7 +56,7 @@ return array(
     | If 'dismissable' is false, this message will be output at top of nag.
     |--------------------------------------------------------------------------
     */
-    'dismiss_msg' => __( 'Ninja Forms Pro Builder requires Ninja Forms', 'ninja-forms' ),
+    'dismiss_msg' => __( 'Ninja Forms Builder Pro requires Ninja Forms', 'ninja-forms' ),
 
     /*
     |--------------------------------------------------------------------------
